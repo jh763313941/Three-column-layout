@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        div {
+            float: left;
+        }
+        .center {
+            float: left;
+            width: 300px;
+            background-color: bisque;
+        }
+        .left,.right {
+            float: left;
+            width:calc(50% - 150px);
+            background-color:brown;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p style="text-align: center;">
+            3栏布局中间固定
+        </p>
+        <article class="content">
+            <div class="left">左边</div>
+            <div class="center">中间</div>
+            <div class="right">右边</div>
+        </article>
+    </section>
+</body>
+</html>
